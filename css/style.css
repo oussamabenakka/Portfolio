@@ -1,0 +1,78 @@
+*{font-family:'Segoe Ui';}
+.container{width: 1170px;margin: auto;overflow: hidden;}
+/*start header*/
+header{background-image: url('../images/digital_header.png');background-size: cover;}
+header .container .scroll-button{float: right;}
+header .container .scroll-button button{position: fixed;margin-top:790px ;background-color: #031319;background:none;border : none;cursor: pointer;}
+header .container .scroll-button button a{text-decoration: none;color: #fff;font-weight: bold;}
+header .container h1{font-weight: 700;margin-top: 160px;line-height: 16px;color: #fff;font-size: 80px;text-align: center;padding: 5px 0;}
+header .container{height: 400px;overflow: hidden; }
+/* End header*/
+/*start nav*/
+nav{background-color: #031319;}
+nav h2{float: left;color: #eb4644;text-transform: uppercase;cursor: pointer;}
+nav .container{margin-bottom: 20px;overflow: hidden;}
+nav .container ul{margin-right: 20px;margin-bottom: 0px;color: #fff;overflow: hidden;list-style: none;float: right;}
+nav .container ul li{margin-left: 20px;float: left; padding: 10px;text-transform: uppercase;font-weight: bolder;cursor: pointer;color: #fff;}
+nav .container ul li a{text-decoration: none;color: #fff;}
+nav .container ul li:hover,
+nav .container ul li a:hover{color: #eb4644;}
+/*start container of section and aside*/
+/*start section*/
+.group{margin-bottom: 50px;margin-top: 50px;}
+.container section{float: left;background-color: #fff;width: 70%;}
+.container section article h2{color: #eb4644;}
+.container aside  h2{color: #fff;}
+.container aside p{color: #fff;line-height: 1.7;font-weight: bold;}
+/*end section*/
+/*start aside*/
+.container aside{margin-bottom: 20px; margin-top: 20px; margin-left: 2%; width: 26%; float: left; background-color:#fff; border: 1px solid #eb4644;padding: 10px;background-color: #eb4644;}
+/*end aside*/
+/*end container of section and aside*/
+/*start section about me*/
+/*portfolio*/
+section .Porfolio .container{margin-bottom: 20px;}
+section .Porfolio .about-me .portfolio-header{height: 66.81px;background-color: #eb4644;margin-bottom: 20px;}
+section .Porfolio .about-me article:last-of-type h3{text-transform: uppercase;}
+section .Porfolio .about-me .portfolio-header h2{color: #fff;text-align: center;margin: 0px;padding-top:19px ;}
+section .Porfolio .about-me .container article div span{transition: width 1s;background-color: #eb4644;width: 15%;}
+section .Porfolio .about-me .container div .css:hover{width: 60%; animation-name: ShowCss; animation-duration: 2s; animation-iteration-count: infinite;}
+section .Porfolio .about-me .container div .html:hover{width: 90%; animation-name: ShowHtml; animation-duration: 2s; animation-iteration-count: infinite;}
+section .Porfolio .about-me .container div .js:hover{width: 25%; animation-name: ShowJS; animation-duration: 2s; animation-iteration-count: infinite;}
+section .Porfolio .about-me .container div .sql:hover{width: 50%; animation-name: ShowSql; animation-duration: 2s; animation-iteration-count: infinite;}
+section .Porfolio .about-me .container div .csharp:hover{width: 85%; animation-name: ShowCSharp; animation-duration: 2s; animation-iteration-count: infinite;}
+section .Porfolio .about-me .container{background-color: #fff;}
+section .Porfolio .about-me .container article:first-of-type{width: 45%;float: left;}
+section .Porfolio .about-me .container article div {margin-top: 10px; height: 30px;}
+section .Porfolio .about-me .container article div img {margin-top: 10px; height: 30px;}
+section .Porfolio .about-me .container article div span{display: block;height: 30px;text-align: right;margin-bottom: 10px;margin: 0;line-height: 30px;font-weight: bold;color: #fff;}
+section .Porfolio .about-me .container article:last-of-type{float: left;width: 55%;}
+@keyframes ShowCss { 0%{background-color: #eb4644;} 50%{background-color: rgb(59, 150, 235);} 100%{background-color: #eb4644;}}
+@keyframes ShowHtml { 0%{background-color: #eb4644;} 50%{background-color: #ff7300;} 100%{background-color: #eb4644;}}
+@keyframes ShowJS { 0%{background-color: #eb4644;} 50%{background-color: #ffeb3a;} 100%{background-color: #eb4644;}}
+@keyframes ShowSql { 0%{background-color: #eb4644;} 50%{background-color: rgb(0, 190, 190);} 100%{background-color: #eb4644;}}
+@keyframes ShowCSharp { 0%{background-color: #eb4644;} 50%{background-color: rgb(169, 85, 248);} 100%{background-color: #eb4644;}}
+/*MyWork*/
+section .my-work .about-me .container div{float: left;border: 1px solid #878a8c;margin: 10px;box-shadow: 5px 10px 18px  rgb(221, 221, 221);cursor: pointer;transition: transform .2s;}
+section .my-work .about-me .container div:hover{transform: scale(1.05); }
+/*Contact-me*/
+section .Contact-me .container{margin-top: 40px;margin-bottom: 40px;}
+section .Contact-me .container .left-side{width: 35%;float: left;margin-right: 15%;}
+section .Contact-me .container .right-side{width: 50%;float: left;}
+section .Contact-me .container .right-side form table input[type="email"],
+section .Contact-me .container .right-side form table input[type="text"]{margin-bottom: 5px;width: 300px;height: 30px;}
+section .Contact-me .container .right-side form table input[type="submit"]{background-color: #eb4644;border: none;text-transform: uppercase;font-weight: bold;padding-left: 20px; padding-right: 20px;padding-top: 10px;padding-bottom: 10px;color: #fff;cursor: pointer;}
+section .Contact-me .container .left-side h2{color: #eb4644;text-transform: uppercase;}
+section .Contact-me .container form table tr td label span{color: #ff0400;}
+section .Contact-me .container form table tr td label {color: black; font-weight: bold;}
+/*start footer*/
+footer{margin-top: 20px;background-color:#031319;color: #fff;}
+footer h3{float: left;}
+footer h3 span{color: #eb4644;}
+footer .container ul{margin-right: 30px;margin-top: 5px;}
+footer .container ul li{border: 1px solid #eb4644;border-radius: 50%;padding: 2px;background-color: #eb4644;list-style: none;float: right; margin: 5px;  cursor: pointer;}
+footer .container ul li:first-of-type,
+footer .container ul li:last-of-type{border: 1px solid #0a66c2;background-color: #0a66c2;}
+/*end footer*/
+/*my framework*/
+.paragraphs{color: #878a8c;line-height: 1.7;font-weight: bold;}
